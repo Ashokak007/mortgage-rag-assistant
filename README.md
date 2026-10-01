@@ -42,7 +42,7 @@ streamlit run app.py                          # chat UI in the browser
 pytest -q                                     # offline unit tests
 ```
 
-## Evaluate (get real numbers for your resume)
+## Evaluation
 
 1. Edit `eval/questions.json`: write ~20 questions your PDFs can answer, with a keyword
    that appears in the correct passage. Keep a few out-of-scope questions.
@@ -53,7 +53,7 @@ python -m eval.evaluate --llm    # + citation rate and out-of-scope refusal rate
 ```
 Results are saved to `eval/results.json`.
 
-**Improve and re-measure** (good interview story): try `--chunk-size 500 --overlap 100`
+**Next experiments:** try `--chunk-size 500 --overlap 100`
 in `build_index.py`, a different `k`, or a stronger embedding model, and compare scores.
 
 ## Project structure
