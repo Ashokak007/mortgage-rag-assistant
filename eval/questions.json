@@ -1,0 +1,14 @@
+[
+ {"question": "What is a Loan Estimate and when do I receive it?", "expected_keywords": ["Loan Estimate"]},
+ {"question": "What is a Closing Disclosure?", "expected_keywords": ["Closing Disclosure"]},
+ {"question": "What is private mortgage insurance and when is it required?", "expected_keywords": ["mortgage insurance"]},
+ {"question": "What is an escrow account used for?", "expected_keywords": ["escrow"]},
+ {"question": "How does a fixed-rate loan differ from an adjustable-rate loan?", "expected_keywords": ["adjustable", "fixed"]},
+ {"question": "What are closing costs?", "expected_keywords": ["closing costs"]},
+ {"question": "What are discount points?", "expected_keywords": ["points"]},
+ {"question": "How much should I put down as a down payment?", "expected_keywords": ["down payment"]},
+ {"question": "What is a rate lock?", "expected_keywords": ["lock"]},
+ {"question": "What does APR mean?", "expected_keywords": ["APR", "annual percentage rate"]},
+ {"question": "What is the best pizza topping?", "expected_keywords": [], "out_of_scope": true},
+ {"question": "Who won the 2022 World Cup?", "expected_keywords": [], "out_of_scope": true}
+]
