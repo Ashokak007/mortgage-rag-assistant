@@ -1,4 +1,4 @@
-"""Measure how well the assistant works, so the numbers on your resume are real.
+"""Measure retrieval quality and answer behaviour of the assistant.
 
 Retrieval metrics (no API key needed):
   Hit@1 / Hit@3  - share of questions where a relevant passage is ranked 1st / in the top 3
